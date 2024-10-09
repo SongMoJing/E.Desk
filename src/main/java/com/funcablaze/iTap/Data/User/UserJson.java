@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class UserJson {
 
-    private static File file = new File("./E.Desk/user.json");
+    private static final File file = new File("./E.Desk/user.json");
 
     /**
      * 读取user.json文件，返回二维数组
